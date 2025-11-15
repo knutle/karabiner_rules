@@ -1,0 +1,31 @@
+{
+  "description": "Use control 8 and control 9 to type curly brackets {}",
+  "manipulators": [
+    {
+      "from": {
+        "key_code": "8",
+        "modifiers": { "mandatory": ["control"] }
+      },
+      "to": [
+        {
+          "key_code": "8",
+          "modifiers": ["left_shift", "left_option"]
+        }
+      ],
+      "type": "basic"
+    },
+    {
+      "from": {
+        "key_code": "9",
+        "modifiers": { "mandatory": ["control"] }
+      },
+      "to": [
+        {
+          "key_code": "9",
+          "modifiers": ["left_shift", "left_option"]
+        }
+      ],
+      "type": "basic"
+    }
+  ]
+}
